@@ -6,7 +6,7 @@
 Welcome to my Ethical Hacker's Lair! Here, I share my knowledge and experience in the field of cybersecurity.
 ```
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=4500&pause=1000&color=0E75B6&width=350&center=true&width=480&lines=<+cybersecurity+<+%3B+AI%2FML;<+Full+Stack+Developer+%2F>">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=4500&pause=1000&color=0E75B6&width=350&center=true&width=480&lines=<+cybersecurity+<+%3B+AI%2FML;<+AI/ML+%2F>">
 </p>
 
 ![Kali Linux Logo](https://www.kali.org/images/404.png)
