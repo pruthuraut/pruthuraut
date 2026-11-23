@@ -1,6 +1,6 @@
 <!-- ───────────────────────── HEADER ───────────────────────── -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:040404,55:2a3f4c,100:aa3535&height=200&section=header&text=Pruthu%20Raut&fontColor=f2f4f7&fontSize=56&fontAlignY=38&desc=Offensive%20%26%20AI%20Security%20Researcher&descSize=18&descAlignY=60&animation=fadeIn" width="100%" alt="Pruthu Raut — Offensive & AI Security Researcher"/>
+  <img src="./assets/header.svg" width="100%" alt="Pruthu Raut — Offensive &amp; AI Security Researcher"/>
 </p>
 
 <p align="center">
@@ -120,8 +120,4 @@ motto:     "I like to break systems for fun and profit."
 
 ---
 
-<p align="center">
-  <code>$ echo "found a bug in your stack? → rautpruthu@gmail.com"</code>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:aa3535,45:2a3f4c,100:040404&height=110&section=footer" width="100%" alt=""/>
+<p align="center"><a href="mailto:rautpruthu@gmail.com"><img src="./assets/footer.svg" width="100%" alt="found a bug in your stack? rautpruthu@gmail.com"/></a></p>
