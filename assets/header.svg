@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Pruthu Raut — Offensive &amp; AI Security Researcher">
+  <defs>
+    <radialGradient id="r" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#aa3535" stop-opacity=".85"/><stop offset="1" stop-color="#aa3535" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#2a3f4c" stop-opacity=".95"/><stop offset="1" stop-color="#2a3f4c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="t" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#9a7f65" stop-opacity=".55"/><stop offset="1" stop-color="#9a7f65" stop-opacity="0"/></radialGradient>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/></pattern>
+    <clipPath id="c"><rect width="1280" height="320" rx="24"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,"Cascadia Code",Menlo,Consolas,monospace}
+      .float1{animation:f1 14s ease-in-out infinite alternate}
+      .float2{animation:f2 18s ease-in-out infinite alternate}
+      .float3{animation:f1 22s ease-in-out infinite alternate-reverse}
+      .in{opacity:0;animation:in 1s ease-out forwards}
+      .d1{animation-delay:.15s}.d2{animation-delay:.4s}.d3{animation-delay:.65s}
+      .caret{animation:blink 1s steps(1) infinite}
+      .dot{animation:pulse 2s ease-in-out infinite}
+      @keyframes f1{to{transform:translate(70px,30px)}}
+      @keyframes f2{to{transform:translate(-90px,-20px)}}
+      @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes pulse{50%{opacity:.35}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#c)">
+    <rect width="1280" height="320" fill="#040404"/>
+    <ellipse class="float1" cx="1060" cy="60" rx="360" ry="220" fill="url(#r)"/>
+    <ellipse class="float2" cx="760" cy="300" rx="420" ry="200" fill="url(#b)"/>
+    <ellipse class="float3" cx="180" cy="-20" rx="300" ry="160" fill="url(#t)"/>
+    <rect width="1280" height="320" fill="url(#g)"/>
+    <rect x=".5" y=".5" width="1279" height="319" rx="23.5" fill="none" stroke="#ffffff" stroke-opacity=".1"/>
+
+    <!-- status pill -->
+    <g class="in">
+      <rect x="64" y="56" width="356" height="34" rx="17" fill="#141414" fill-opacity=".85" stroke="#ffffff" stroke-opacity=".14"/>
+      <circle class="dot" cx="86" cy="73" r="5" fill="#e5534b"/>
+      <text x="102" y="78" class="mono" font-size="14" fill="#adb1b8">Product Security Engineer @ Illumio</text>
+    </g>
+
+    <text x="60" y="176" class="sans in d1" font-size="88" font-weight="800" letter-spacing="-3" fill="#f2f4f7">Pruthu <tspan fill="#5a6165">Raut</tspan></text>
+
+    <text x="64" y="224" class="sans in d2" font-size="24" font-weight="500" fill="#adb1b8">Offensive &amp; <tspan fill="#e5534b">AI Security</tspan> Researcher</text>
+
+    <g class="in d3">
+      <text x="64" y="270" class="mono" font-size="15" fill="#9a9a9b"><tspan fill="#e5534b">$</tspan> breaking systems for fun and profit<tspan class="caret" fill="#f2f4f7"> █</tspan></text>
+    </g>
+
+    <!-- stat chips -->
+    <g class="in d3 mono" font-size="13">
+      <rect x="884" y="212" width="160" height="72" rx="16" fill="#141414" fill-opacity=".8" stroke="#ffffff" stroke-opacity=".1"/>
+      <text x="904" y="248" class="sans" font-size="30" font-weight="800" fill="#e5534b">100+</text>
+      <text x="904" y="270" fill="#9a9a9b">bugs reported</text>
+      <rect x="1056" y="212" width="160" height="72" rx="16" fill="#141414" fill-opacity=".8" stroke="#ffffff" stroke-opacity=".1"/>
+      <text x="1076" y="248" class="sans" font-size="30" font-weight="800" fill="#f1d05b">8 · 2</text>
+      <text x="1076" y="270" fill="#9a9a9b">HoFs · CVEs</text>
+    </g>
+  </g>
+</svg>

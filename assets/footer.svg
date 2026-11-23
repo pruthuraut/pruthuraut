@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="96" viewBox="0 0 1280 96" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#aa3535"/><stop offset=".5" stop-color="#2a3f4c"/><stop offset="1" stop-color="#9a7f65"/></linearGradient>
+    <clipPath id="c"><rect width="1280" height="96" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1280" height="96" fill="#040404"/>
+    <rect width="1280" height="3" fill="url(#l)"/>
+    <rect x=".5" y=".5" width="1279" height="95" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity=".1"/>
+    <text x="640" y="56" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" fill="#9a9a9b"><tspan fill="#e5534b">$</tspan> echo "found a bug in your stack?" <tspan fill="#f2f4f7">→ rautpruthu@gmail.com</tspan></text>
+  </g>
+</svg>
